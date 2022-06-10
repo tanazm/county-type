@@ -16,6 +16,18 @@ body {
     margin: 0 auto
   }
 
+.text-container2 p {
+  color:rgb(0, 0, 0);
+}
+
+.text-container2 a {
+  color:rgb(0, 0, 0);
+}
+
+.text-container2 a:hover {
+    color:#210dda;
+  }
+
 .viz-container {
     max-width: 90%; 
     margin: 0 auto
