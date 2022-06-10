@@ -11,6 +11,11 @@ body {
     margin: 0 auto
   }
 
+.text-container2 {
+    max-width: 90%; 
+    margin: 0 auto
+  }
+
 .viz-container {
     max-width: 90%; 
     margin: 0 auto
@@ -98,7 +103,7 @@ p {
 	padding: 0em 0em 1em 1em;
 	position: absolute;
 	width: 230px;
-	margin: 50em 76em;
+	margin: 58em 76em;
 	z-index: 100;
 }
 
