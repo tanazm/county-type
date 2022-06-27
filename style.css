@@ -11,8 +11,20 @@ body {
     margin: 0 auto
   }
 
+  .text-container p {
+    color:rgb(0, 0, 0);
+  }
+  
+  .text-container a {
+    color:rgb(0, 0, 0);
+  }
+  
+  .text-container a:hover {
+      color:#210dda;
+    }
+
 .text-container2 {
-    max-width: 80%; 
+    max-width: 50%; 
     margin: 0 auto
   }
 
@@ -29,8 +41,8 @@ body {
   }
 
 .viz-container {
-    max-width: 90%; 
-    margin: 0 auto
+    max-width: 100%; 
+    margin: 0 auto;
   }
   
 h1 {
@@ -44,17 +56,15 @@ h2 {
     font-weight:400;
     font-size:20px;
   }
-
-h3 {
-    font-weight: 400;
-    letter-spacing: .5px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-  }
   
 p {
+    font-weight: 200;
+    letter-spacing: 0.5px;
+  }
+
+  h3 {
     font-weight: 300;
-    letter-spacing: 1px;
+    letter-spacing: .5px;
   }
 
 .menu {
@@ -77,9 +87,9 @@ p {
   }
 
 #map {
-    width: 90%;
+    width: 50%;
     height: 600px;
-    margin: 3em auto;
+    margin: 3em 30em;
 }
 
 .mapboxgl-popup-content h4 {
@@ -105,27 +115,25 @@ p {
 }
 
 .title {
-	background-color: #fff;
-	opacity: 70%;
-	border-radius: 1em;
+	background-color: rgb(57, 56, 56);
+	opacity: 100%;
+	border-radius: 0em;
 	top: 5em;
 	box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
 	font: .8em/.9em 'Roboto', sans-serif;
 	line-height: 2.5em;
 	padding: 0em 0em 1em 1em;
 	position: absolute;
-	width: 230px;
-	margin: 58em 76em;
+	width: 210px;
+	margin: 55em 35em;
 	z-index: 100;
 }
 
-.title h1{
-	opacity: 100%;
-}
-
-.title p {
+.title h4 {
 	line-height: 1.5em;
-	opacity: 100%;
+  letter-spacing: 1px;
+  font-weight: 200px;
+  color: white;
 }
 
 .title div span {
@@ -167,6 +175,10 @@ p {
     display: inline-block;
     height: 10px;
     margin-top: 0px;
-    margin-right: 20px;
+    margin-right: 10px;
     width: 10px;
-  }
+    }
+
+.legend div {
+      color:white;
+      }
